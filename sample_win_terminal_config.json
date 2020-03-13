@@ -1,4 +1,4 @@
-﻿
+
 // To view the default settings, hold "alt" while clicking on the "Settings" button.
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
 
@@ -27,6 +27,7 @@
             "backgroundImage": "C:\\Users\\Ahmet\\Downloads\\powershell.gif",
             "backgroundImageOpacity": 0.67,
             "backgroundImageStretchMode": "none",
+            "fontFace": "Cascadia Code",
             "foreground": "#02F195",
             "cursorColor": "#02F195",
             "padding": 20,
@@ -41,9 +42,11 @@
             "background": "#FFAAAA",
             "backgroundImage": "C:\\Users\\Ahmet\\Downloads\\cmd.gif",
             "backgroundImageStretchMode": "none",
-            "foreground": "#79E900",
+            "fontFace": "Cascadia Code",
+            "fontSize":  16,
+            "foreground": "#9002A9",
             "cursorColor": "#02F195",
-            "padding": 20,
+            "padding": 40,
             "backgroundImageAlignment": "bottomRight",
             "backgroundImageOpacity": 1,
             "hidden": false
@@ -55,6 +58,7 @@
             "source": "Windows.Terminal.Azure",
             "backgroundImage": "C:\\Users\\Ahmet\\Downloads\\azurecloudshell.gif",
             "backgroundImageStretchMode": "none",
+            "fontFace": "Cascadia Code",
             "foreground": "#CBCBCB",
             "cursorColor": "#02F195",
             "backgroundImageAlignment": "center",
@@ -68,25 +72,31 @@
             "source": "Windows.Terminal.Wsl",
             "backgroundImage": "C:\\Users\\Ahmet\\Downloads\\kali1.gif",
             "backgroundImageStretchMode": "none",
+            "fontFace": "Cascadia Code",
             "foreground": "#CBCBCB",
             "cursorColor": "#02F195",
             "backgroundImageAlignment": "center",
             "backgroundImageOpacity": 1,
-            "backgroundImage": "C:\\Users\\Ahmet\\Downloads\\giphy.gif",
-            "backgroundImageStretchMode": "none",
-            "foreground": "#DED600",
-            "cursorColor": "#02F195",
-            "backgroundImageAlignment": "center",
-            "backgroundImageOpacity": 1
+            "padding": 30
 
 
           },
-            {
-                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
-                "hidden": false,
-                "name": "Debian",
-                "source": "Windows.Terminal.Wsl"
-            }
+          {
+            "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+            "hidden": false,
+            "name": "Debian",
+            "source": "Windows.Terminal.Wsl",
+            "backgroundImage": "C:\\Users\\Ahmet\\Downloads\\debian.gif",
+            "backgroundImageStretchMode": "none",
+            "fontFace": "Cascadia Code",
+            "curserHeight": 45,
+            "foreground": "#FF7400",
+            "cursorColor": "#8743FC",
+            "backgroundImageAlignment": "topRight",
+            "backgroundImageOpacity": 1,
+            "padding": 60
+
+          }
         ]
     },
 
